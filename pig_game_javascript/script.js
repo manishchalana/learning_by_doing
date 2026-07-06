@@ -77,3 +77,4 @@ const holdScore = function () {
 document.querySelector(".btn--roll").addEventListener("click", rollDice);
 document.querySelector(".btn--new").addEventListener("click", resetGame);
 document.querySelector(".btn--hold").addEventListener("click", holdScore);
+resetGame();
